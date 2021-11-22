@@ -14,3 +14,7 @@ The area of the triangle is 12.0
 '''
 
 #start writing your code below
+
+base = float(input("Enter the base: "))
+height = float(input("Enter the height: "))
+print("The area of the triangle is ", (base * height) // 2)
